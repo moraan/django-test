@@ -1,0 +1,38 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.env
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific files
+db.sqlite3               # SQLite database (development only, typically not tracked)
+*.log                     # Log files
+media/                    # User-uploaded files
+staticfiles/              # Collected static files (if using collectstatic)
+static/                   # Optional: ignore generated static files
+
+# Django REST framework (optional: ignore any specific settings for DRF)
+rest_framework/           # Ignore any DRF-related folder (if you have a specific one)
+
+# Environs files (for environment variable configuration)
+.env                      # Ignore .env files containing environment variables
+.env.*                    # Any variations of .env files
+
+# IDE and editor files
+.vscode/                  # VS Code settings
+.idea/                    # IntelliJ IDEA settings
+*.swp                     # Swap files from Vim or other editors
+
+# OS-specific files
+.DS_Store                 # macOS system file
+Thumbs.db                 # Windows system file
+
+# Git-related files
+*.orig                    # Merge conflict backup files
+
+
