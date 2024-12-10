@@ -5,9 +5,13 @@
 __pycache__/
 *.env
 
+staticfiles/
+
 # Virtual environment
 venv/
 env/
+
+db.sqlite3
 
 # Django-specific files
 db.sqlite3               # SQLite database (development only, typically not tracked)
